@@ -1,0 +1,29 @@
+# Dados
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.db
+
+# Ambiente
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
