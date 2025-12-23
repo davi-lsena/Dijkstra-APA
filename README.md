@@ -1,5 +1,6 @@
-# Análise e Comparação do Algoritmo de Dijkstra  
-### Implementação Sequencial e Perspectivas de Paralelização em GPU
+# APA - Trabalho Final
+## Algoritmo de Dijkstra  
+### Implementação sequencial VS Paralelização em GPU
 
 ## Contexto
 
@@ -24,7 +25,7 @@ ainda em desenvolvimento.
 
 ---
 
-## Algoritmos Abordados
+## Algoritmos abordados
 
 Atualmente implementado:
 - **Dijkstra clássico (sequencial)**
@@ -32,7 +33,7 @@ Atualmente implementado:
 
 ---
 
-## Descrição da imeplmentação atual
+## Descrição da implementação atual
 
 A implementação atual modela o problema como um **grafo direcionado ponderado**, onde:
 
@@ -47,3 +48,15 @@ predeterminados pelo usuário.
 O resultado é apresentado de duas formas:
 - **Texto**, com o detalhamento do caminho e das distâncias acumuladas;
 - **Visualização gráfica**, com o caminho destacado sobre o mapa do Brasil.
+
+## Ambiente de execução e dependências
+
+O projeto foi desenvolvido em Python, com duas formas de configuração:
+
+- **Ambiente Conda**, utilizado durante o desenvolvimento e experimentação.
+- **Ambiente Python padrão**, permitindo a execução do projeto sem uso do Conda.
+
+As dependências estão organizadas da seguinte forma:
+
+- `environment.yml`: descreve o ambiente Conda completo utilizado durante o desenvolvimento;
+- `requirements.txt`: lista as bibliotecas Python necessárias `.py`.

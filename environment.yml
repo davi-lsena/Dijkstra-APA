@@ -1,11 +1,11 @@
 name: APA
 channels:
   - defaults
-  - https://repo.anaconda.com/pkgs/main
-  - https://repo.anaconda.com/pkgs/r
-  - https://repo.anaconda.com/pkgs/msys2
 dependencies:
   - python=3.12
-  - jupyterlab
-  - anaconda_prompt
-prefix: C:\Users\senag\anaconda3\envs\APA
+  - geopandas
+  - matplotlib
+  - pandas
+  - numpy
+  - shapely
+  - pyproj
